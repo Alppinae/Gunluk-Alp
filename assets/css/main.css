@@ -1,0 +1,31 @@
+.container {
+    padding: 20px;
+}
+
+.card {
+    background-color: #2b2b2b;
+    color: #fff;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 10px; /* Yeni ekledim: Kartlar arasında bir boşluk bırakır */
+}
+
+textarea {
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px; /* Yeni ekledim: Text alanına iç boşluk ekler */
+    width: calc(100% - 22px); /* Yeni ekledim: Kenar boşluğunu dahil etmek için genişlik ayarı */
+    margin-bottom: 10px; /* Yeni ekledim: Text alanıyla arasında bir boşluk bırakır */
+}
+
+.btn {
+    padding: 8px 16px; /* Değiştirdim: Daha dengeli bir yastıklama için */
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: rgb(5, 111, 160);
+}
